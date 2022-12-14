@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Addition">
+      <UniqueIdentifier>{f70716a4-5dc8-422e-b412-f4ddf2d823a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text Object">
+      <UniqueIdentifier>{667b50ce-1f40-47fc-99af-89de45f85732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{3c03d90d-cca1-4f64-9e0e-a5e92be6ec49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{7bfda6d4-0351-4486-95ac-5b899b0e0cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button.cpp">
+      <Filter>Text Object</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TextBox.cpp">
+      <Filter>Text Object</Filter>
+    </ClCompile>
+    <ClCompile Include="page\Page.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="page\MainMenuPage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="string\BaseString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="string\IdentifierString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="string\HexString.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIElement.cpp">
+      <Filter>Text Object</Filter>
+    </ClCompile>
+    <ClCompile Include="page\InfoPage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\InputBox.cpp">
+      <Filter>Text Object</Filter>
+    </ClCompile>
+    <ClCompile Include="font\FontManager.cpp">
+      <Filter>Addition</Filter>
+    </ClCompile>
+    <ClCompile Include="page\InitStringsPage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\InputBox.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TextBox.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UiElement.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="string\StringDataBase.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="page\StringMenuPage.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.h">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="page\StringTestingPage.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="page\StringTestingPageBase.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Globals.h">
+      <Filter>Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="page\MainMenuPage.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="page\Page.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button.h">
+      <Filter>Text Object</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TextBox.h">
+      <Filter>Text Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="string\BaseString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="string\IdentifierString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="string\HexString.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIElement.h">
+      <Filter>Text Object</Filter>
+    </ClInclude>
+    <ClInclude Include="page\InfoPage.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\InputBox.h">
+      <Filter>Text Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="font\FontManager.h">
+      <Filter>Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="page\InitStringsPage.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button.h" />
+    <ClInclude Include="UI\InputBox.h" />
+    <ClInclude Include="UI\TextBox.h" />
+    <ClInclude Include="UI\UiElement.h" />
+    <ClInclude Include="string\StringDataBase.h" />
+    <ClInclude Include="page\StringMenuPage.h" />
+    <ClInclude Include="page\StringTestingPage.h" />
+    <ClInclude Include="string\String.h" />
+    <ClInclude Include="page\StringTestingPageBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
